@@ -15,4 +15,8 @@
     <PackageReference Include="System.Data.SQLite" Version="1.0.119" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Core_Banco\Core_Banco.csproj" />
+  </ItemGroup>
+
 </Project>
