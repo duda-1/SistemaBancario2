@@ -3,8 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33110.190
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SistemaBancario", "SistemaBancario.csproj", "{31B6BBE1-CC57-46C7-9E94-F5C3D9A39F0D}"
-EndProject
+
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core_Banco", "Core_Banco\Core_Banco.csproj", "{E876E024-08BA-4305-9676-2AC2B342B12D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api", "Api\Api.csproj", "{173C1D5B-91EA-48B2-B312-754874D7A3F4}"
