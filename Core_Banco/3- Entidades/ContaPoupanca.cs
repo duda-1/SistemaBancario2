@@ -8,7 +8,7 @@ namespace SistemaBancario
 {
     public class ContaPoupanca : Conta
     {
-        public double TaxaJuros;
+        public double TaxaJuros { get; set; }   
 
         public override void Depositar(double valor)
         {

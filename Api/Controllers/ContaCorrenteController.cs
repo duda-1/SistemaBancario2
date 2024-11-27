@@ -22,8 +22,7 @@ namespace Api.Controllers
         [HttpPost("Adicionar_Conta")]
         public void AdicionarConta(ContaCorrente conta)
         {
-            ContaCorrente carrinho = _mapper.Map<ContaCorrente>(conta);
-            _service.AdicionarConta(carrinho);
+            _service.AdicionarConta(conta);
         }
 
         [HttpGet("Listar_Conta")]

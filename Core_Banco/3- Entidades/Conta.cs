@@ -8,8 +8,8 @@ namespace SistemaBancario
 {
     public abstract class Conta : IConta
     {
-        public string Titular;
-        public double Saldo;
+        public string Titular { get; set; } 
+        public double Saldo { get; set; }   
 
         public virtual void Depositar(double valor)
         {

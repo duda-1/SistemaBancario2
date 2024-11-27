@@ -8,7 +8,8 @@ namespace SistemaBancario
 {
     public class ContaCorrente : Conta
     {
-        public double LimiteCredito;
+        public double LimiteCredito { get; set; }
+
 
         public override void Depositar(double valor)
         {
